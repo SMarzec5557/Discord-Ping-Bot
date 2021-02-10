@@ -68,6 +68,10 @@ class AdminCommands(commands.Cog):
             await getChannelByName(self.bot, 'teleport').send('Nie Pingujemy!')
             await message.channel.purge(limit=1)
 
+    @commands.command()
+    async def test(self, ctx):
+        await ctx.channel.send('Hello from github!')
+
 
 
 
