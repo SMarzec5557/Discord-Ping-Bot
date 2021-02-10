@@ -72,6 +72,8 @@ class AdminCommands(commands.Cog):
     async def test(self, ctx):
         await ctx.channel.send('Hello from github!')
 
+    
+
 
 
 
